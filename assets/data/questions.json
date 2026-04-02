@@ -1,0 +1,313 @@
+{
+  "Java": {
+    "Beginner": [
+      {"q": "What is JVM?", "a": "Java Virtual Machine runs Java bytecode."},
+      {"q": "What is JDK?", "a": "Java Development Kit for compiling and running Java."},
+      {"q": "What is JRE?", "a": "Java Runtime Environment executes Java programs."},
+      {"q": "Explain a class in Java.", "a": "A class is a blueprint for creating objects."},
+      {"q": "What is an object?", "a": "An instance of a class."},
+      {"q": "What are Java data types?", "a": "int, float, char, boolean, etc."},
+      {"q": "What is a constructor?", "a": "A special method to initialize objects."},
+      {"q": "Explain inheritance.", "a": "A class can inherit properties of another class."},
+      {"q": "What is encapsulation?", "a": "Wrapping data and methods in a class."},
+      {"q": "What is polymorphism?", "a": "Ability to take many forms, e.g., method overloading."}
+    ],
+    "Intermediate": [
+      {"q": "Explain method overloading.", "a": "Multiple methods with same name but different parameters."},
+      {"q": "Explain method overriding.", "a": "Subclass redefines a superclass method."},
+      {"q": "What is an interface?", "a": "A contract that classes can implement."},
+      {"q": "Explain abstract class.", "a": "A class that cannot be instantiated and may contain abstract methods."},
+      {"q": "What is exception handling?", "a": "Mechanism to handle runtime errors using try-catch."},
+      {"q": "Explain Java Collections.", "a": "Framework for storing and manipulating groups of objects."},
+      {"q": "Difference between ArrayList and LinkedList.", "a": "ArrayList uses array; LinkedList uses nodes."},
+      {"q": "What is multithreading?", "a": "Multiple threads running concurrently."},
+      {"q": "What is synchronization?", "a": "Mechanism to control access by multiple threads."},
+      {"q": "Explain garbage collection.", "a": "Automatic memory management by JVM."}
+    ],
+    "Advanced": [
+      {"q": "Explain Java memory model.", "a": "Describes how threads interact through memory and variables."},
+      {"q": "What is volatile keyword?", "a": "Indicates variable may be modified by multiple threads."},
+      {"q": "Explain Java Streams.", "a": "API to process sequences of elements functionally."},
+      {"q": "What is Lambda expression?", "a": "Anonymous function to implement functional interfaces."},
+      {"q": "Explain Generics.", "a": "Allows classes/methods to operate on objects of various types."},
+      {"q": "Design a thread-safe singleton.", "a": "Use synchronized or double-checked locking."},
+      {"q": "What is reflection?", "a": "Inspect and manipulate classes at runtime."},
+      {"q": "Explain Java 8 Optional.", "a": "Avoids null pointer exceptions by wrapping optional values."},
+      {"q": "Explain functional interface.", "a": "Interface with exactly one abstract method."},
+      {"q": "What is Java NIO?", "a": "New I/O API for faster buffer-based operations."}
+    ]
+  },
+
+  "Python": {
+    "Beginner": [
+      {"q": "What is Python?", "a": "High-level, interpreted programming language."},
+      {"q": "What is a list?", "a": "Ordered collection of elements."},
+      {"q": "What is a tuple?", "a": "Immutable ordered collection."},
+      {"q": "What is a dictionary?", "a": "Key-value pair collection."},
+      {"q": "What is a set?", "a": "Unordered collection of unique elements."},
+      {"q": "Explain Python variables.", "a": "Used to store data values."},
+      {"q": "What is indentation?", "a": "Used to define code blocks in Python."},
+      {"q": "Explain Python functions.", "a": "Reusable blocks of code."},
+      {"q": "What are Python data types?", "a": "int, float, str, list, tuple, dict, set."},
+      {"q": "What is a loop?", "a": "Used to repeat code multiple times."}
+    ],
+    "Intermediate": [
+      {"q": "Explain Python decorators.", "a": "Functions that modify other functions."},
+      {"q": "What is a lambda function?", "a": "Anonymous single-line function."},
+      {"q": "Explain list comprehensions.", "a": "Compact way to create lists."},
+      {"q": "What is Python generator?", "a": "Yield items one by one using yield keyword."},
+      {"q": "What is exception handling?", "a": "Use try-except blocks to handle errors."},
+      {"q": "Explain modules and packages.", "a": "Modules are files; packages are directories of modules."},
+      {"q": "What is Python class?", "a": "Blueprint to create objects."},
+      {"q": "Explain inheritance in Python.", "a": "Subclass inherits attributes/methods of parent class."},
+      {"q": "What is multiple inheritance?", "a": "A class inherits from more than one class."},
+      {"q": "Explain Python file handling.", "a": "Reading/writing files using open() function."}
+    ],
+    "Advanced": [
+      {"q": "Explain Python GIL.", "a": "Global Interpreter Lock allows only one thread to execute Python bytecode at a time."},
+      {"q": "What is Python metaclass?", "a": "Class of a class, controls creation of classes."},
+      {"q": "Explain Python context managers.", "a": "Used with 'with' statement to manage resources."},
+      {"q": "What is Python coroutine?", "a": "Function used with async/await for asynchronous programming."},
+      {"q": "Explain descriptors.", "a": "Objects that define behavior of attribute access."},
+      {"q": "What is Python monkey patching?", "a": "Dynamically modify classes or modules at runtime."},
+      {"q": "Explain Python introspection.", "a": "Ability to examine objects at runtime."},
+      {"q": "What is functools.partial?", "a": "Creates a new function with some arguments fixed."},
+      {"q": "Explain Python memory management.", "a": "Automatic garbage collection using reference counting."},
+      {"q": "Explain Python asyncio.", "a": "Library for writing concurrent code using async/await."}
+    ]
+  },
+
+  "DBMS": {
+    "Beginner": [
+      {"q": "What is DBMS?", "a": "Database Management System."},
+      {"q": "What is a database?", "a": "Organized collection of data."},
+      {"q": "What is a table?", "a": "Collection of related data in rows and columns."},
+      {"q": "Explain primary key.", "a": "Unique identifier for a table row."},
+      {"q": "What is foreign key?", "a": "Column linking to another table's primary key."},
+      {"q": "What is SQL?", "a": "Structured Query Language to manage databases."},
+      {"q": "What is a query?", "a": "Request to retrieve data from database."},
+      {"q": "Explain normalization.", "a": "Process to reduce redundancy in tables."},
+      {"q": "What is a schema?", "a": "Structure of a database."},
+      {"q": "What is a view?", "a": "Virtual table based on a query."}
+    ],
+    "Intermediate": [
+      {"q": "Explain JOINs.", "a": "Combining rows from multiple tables."},
+      {"q": "What is indexing?", "a": "Speed up data retrieval using indexes."},
+      {"q": "Explain ACID properties.", "a": "Atomicity, Consistency, Isolation, Durability."},
+      {"q": "What is transaction?", "a": "A sequence of operations executed as a single unit."},
+      {"q": "Explain triggers.", "a": "Automatic actions on table events."},
+      {"q": "What is stored procedure?", "a": "Precompiled SQL program executed in DBMS."},
+      {"q": "Explain views.", "a": "Virtual tables to simplify queries."},
+      {"q": "What is data integrity?", "a": "Accuracy and consistency of data."},
+      {"q": "Explain DBMS architecture.", "a": "1-tier, 2-tier, 3-tier architectures."},
+      {"q": "Difference between SQL and NoSQL.", "a": "SQL is relational, NoSQL is non-relational."}
+    ],
+    "Advanced": [
+      {"q": "Explain database normalization forms.", "a": "1NF, 2NF, 3NF, BCNF rules for organizing tables."},
+      {"q": "What is deadlock?", "a": "Two or more transactions wait indefinitely for resources."},
+      {"q": "Explain indexing strategies.", "a": "B-Tree, Hash, Composite indexes."},
+      {"q": "Explain query optimization.", "a": "Improve query performance using strategies."},
+      {"q": "What is replication?", "a": "Copying data across multiple databases for reliability."},
+      {"q": "Explain sharding.", "a": "Distribute data across multiple machines for scalability."},
+      {"q": "What is transaction isolation level?", "a": "Controls visibility of uncommitted changes."},
+      {"q": "Explain foreign key constraints.", "a": "Ensure referential integrity across tables."},
+      {"q": "What is data warehousing?", "a": "Central repository of integrated data for analysis."},
+      {"q": "Explain OLAP vs OLTP.", "a": "OLAP is analytical, OLTP is transactional."}
+    ]
+  },
+
+  "Flutter": {
+    "Beginner": [
+      {"q": "What is Flutter?", "a": "UI toolkit for building natively compiled apps."},
+      {"q": "What is a widget?", "a": "Basic building block of UI in Flutter."},
+      {"q": "Difference between StatefulWidget & StatelessWidget?", "a": "Stateful can change, Stateless cannot."},
+      {"q": "What is hot reload?", "a": "Instantly reflect changes in running app."},
+      {"q": "What is pubspec.yaml?", "a": "Configuration file for dependencies and assets."},
+      {"q": "What is a MaterialApp?", "a": "Root widget for Material Design apps."},
+      {"q": "What is Scaffold?", "a": "Provides basic visual layout structure."},
+      {"q": "What is setState()?", "a": "Method to update state and rebuild UI."},
+      {"q": "What is a Column widget?", "a": "Arranges children vertically."},
+      {"q": "What is a Row widget?", "a": "Arranges children horizontally."}
+    ],
+    "Intermediate": [
+      {"q": "Explain Navigator in Flutter.", "a": "Manages navigation stack and routes."},
+      {"q": "What is ListView?", "a": "Scrollable list of widgets."},
+      {"q": "What is GridView?", "a": "Scrollable grid of widgets."},
+      {"q": "What is InheritedWidget?", "a": "Allows data to propagate down the widget tree."},
+      {"q": "What is Flutter state management?", "a": "Techniques to manage app state, e.g., Provider."},
+      {"q": "Explain FutureBuilder.", "a": "Build UI based on asynchronous data."},
+      {"q": "Explain StreamBuilder.", "a": "Build UI based on a data stream."},
+      {"q": "What are keys in Flutter?", "a": "Preserve widget state when tree rebuilds."},
+      {"q": "What is ThemeData?", "a": "Defines colors and font styles for app theme."},
+      {"q": "Explain GestureDetector.", "a": "Detects gestures like tap, swipe, pinch."}
+    ],
+    "Advanced": [
+      {"q": "Explain custom widgets.", "a": "Create reusable widgets combining others."},
+      {"q": "What is Flutter rendering pipeline?", "a": "Flow from widgets → elements → render objects."},
+      {"q": "Explain Flutter build context.", "a": "Handle to location of widget in tree."},
+      {"q": "What is async/await in Flutter?", "a": "Handle asynchronous operations."},
+      {"q": "Explain Flutter animations.", "a": "Use AnimationController and Tween to animate widgets."},
+      {"q": "What is Provider?", "a": "State management package for Flutter."},
+      {"q": "Explain Bloc pattern.", "a": "Business Logic Component pattern for state management."},
+      {"q": "What is RenderObject?", "a": "Low-level object for layout and painting."},
+      {"q": "Explain Flutter isolates.", "a": "Run code on separate threads for heavy computation."},
+      {"q": "Explain Sliver widgets.", "a": "Efficient scrolling for large lists."}
+    ]
+  },
+
+  "OS": {
+    "Beginner": [
+      {"q": "What is an OS?", "a": "Operating System manages hardware and software."},
+      {"q": "What is a process?", "a": "A running instance of a program."},
+      {"q": "What is a thread?", "a": "Smallest unit of CPU execution."},
+      {"q": "Explain multitasking.", "a": "Running multiple processes simultaneously."},
+      {"q": "What is a file system?", "a": "Organizes files on storage devices."},
+      {"q": "Explain virtual memory.", "a": "Memory management technique using disk as RAM."},
+      {"q": "What is paging?", "a": "Divides memory into fixed-size pages."},
+      {"q": "What is segmentation?", "a": "Divides memory into variable-size segments."},
+      {"q": "What is deadlock?", "a": "State where processes wait indefinitely."},
+      {"q": "What is scheduling?", "a": "Decides order of process execution."}
+    ],
+    "Intermediate": [
+      {"q": "Explain CPU scheduling algorithms.", "a": "FCFS, SJF, Round Robin, Priority scheduling."},
+      {"q": "What is context switch?", "a": "Saving/restoring state during process switch."},
+      {"q": "Explain semaphores.", "a": "Used for process synchronization."},
+      {"q": "What is mutex?", "a": "Mutual exclusion to prevent race conditions."},
+      {"q": "Explain paging and segmentation together.", "a": "Memory divided into pages within segments."},
+      {"q": "What is thrashing?", "a": "Excessive paging leading to low CPU utilization."},
+      {"q": "Explain system calls.", "a": "Interface for user programs to request OS services."},
+      {"q": "What is kernel mode?", "a": "Privileged CPU mode for OS operations."},
+      {"q": "What is user mode?", "a": "Restricted mode for user applications."},
+      {"q": "Explain inter-process communication.", "a": "Mechanisms like pipes, message queues, shared memory."}
+    ],
+    "Advanced": [
+      {"q": "Explain deadlock prevention and avoidance.", "a": "Techniques to prevent or avoid deadlocks."},
+      {"q": "Explain page replacement algorithms.", "a": "FIFO, LRU, Optimal algorithms."},
+      {"q": "What is demand paging?", "a": "Load pages into memory only when needed."},
+      {"q": "Explain virtual memory address translation.", "a": "Map virtual addresses to physical memory."},
+      {"q": "What is scheduling in real-time OS?", "a": "Ensure tasks meet deadlines."},
+      {"q": "Explain OS security features.", "a": "User authentication, access control, encryption."},
+      {"q": "What is interrupt?", "a": "Signal to CPU to stop current task and execute handler."},
+      {"q": "Explain race condition.", "a": "Incorrect behavior when multiple processes access shared data."},
+      {"q": "What is paging overhead?", "a": "Extra time/resources to manage pages."},
+      {"q": "Explain multilevel queue scheduling.", "a": "Processes divided into multiple queues based on priority."}
+    ]
+  },
+
+  "Networks": {
+    "Beginner": [
+      {"q": "What is a network?", "a": "Group of interconnected computers."},
+      {"q": "What is IP address?", "a": "Unique identifier for a device on a network."},
+      {"q": "What is a MAC address?", "a": "Hardware address of network interface."},
+      {"q": "What is LAN?", "a": "Local Area Network."},
+      {"q": "What is WAN?", "a": "Wide Area Network."},
+      {"q": "What is a router?", "a": "Device that forwards data between networks."},
+      {"q": "What is a switch?", "a": "Device that connects devices in a LAN."},
+      {"q": "What is a hub?", "a": "Basic device to connect multiple devices in LAN."},
+      {"q": "What is a protocol?", "a": "Rules governing communication."},
+      {"q": "What is HTTP?", "a": "Protocol for web communication."}
+    ],
+    "Intermediate": [
+      {"q": "Explain TCP/IP model.", "a": "4-layer network model: Application, Transport, Internet, Link."},
+      {"q": "Explain OSI model.", "a": "7-layer network model."},
+      {"q": "Difference between TCP and UDP.", "a": "TCP is connection-oriented; UDP is connectionless."},
+      {"q": "What is DNS?", "a": "Domain Name System maps domain names to IP addresses."},
+      {"q": "What is DHCP?", "a": "Dynamic Host Configuration Protocol assigns IP addresses."},
+      {"q": "Explain subnetting.", "a": "Divide network into smaller sub-networks."},
+      {"q": "What is NAT?", "a": "Network Address Translation changes IP addresses in packets."},
+      {"q": "What is VPN?", "a": "Virtual Private Network for secure connection over internet."},
+      {"q": "What is firewall?", "a": "Network security system controlling incoming/outgoing traffic."},
+      {"q": "Explain packet switching.", "a": "Data divided into packets and sent over network independently."}
+    ],
+    "Advanced": [
+      {"q": "Explain routing algorithms.", "a": "Algorithms to determine optimal path: Dijkstra, Bellman-Ford."},
+      {"q": "What is MPLS?", "a": "Multiprotocol Label Switching for fast routing."},
+      {"q": "Explain network congestion control.", "a": "Techniques to prevent overload in networks."},
+      {"q": "What is QoS?", "a": "Quality of Service prioritizes certain traffic."},
+      {"q": "Explain TCP three-way handshake.", "a": "SYN, SYN-ACK, ACK to establish connection."},
+      {"q": "What is ARP?", "a": "Address Resolution Protocol maps IP to MAC address."},
+      {"q": "Explain ICMP.", "a": "Internet Control Message Protocol for error reporting."},
+      {"q": "What is socket programming?", "a": "Communication using endpoints called sockets."},
+      {"q": "Explain VLAN.", "a": "Virtual LAN divides network logically."},
+      {"q": "Explain network topologies.", "a": "Star, Ring, Bus, Mesh topologies."}
+    ]
+  },
+
+  "DSA": {
+    "Beginner": [
+      {"q": "What is Data Structure?", "a": "Way to organize data."},
+      {"q": "What is an array?", "a": "Collection of elements of same type."},
+      {"q": "What is a linked list?", "a": "Collection of nodes with pointers."},
+      {"q": "What is a stack?", "a": "LIFO data structure."},
+      {"q": "What is a queue?", "a": "FIFO data structure."},
+      {"q": "What is a tree?", "a": "Hierarchical data structure."},
+      {"q": "What is a graph?", "a": "Collection of nodes and edges."},
+      {"q": "Explain node in linked list.", "a": "Contains data and pointer to next node."},
+      {"q": "What is circular queue?", "a": "Queue where last node points to first."},
+      {"q": "What is doubly linked list?", "a": "Linked list with next and previous pointers."}
+    ],
+    "Intermediate": [
+      {"q": "Explain binary search.", "a": "Search in sorted array by dividing range."},
+      {"q": "Explain binary tree traversal.", "a": "Inorder, Preorder, Postorder."},
+      {"q": "Explain AVL tree.", "a": "Self-balancing binary search tree."},
+      {"q": "Explain heap.", "a": "Complete binary tree with heap property."},
+      {"q": "Explain hash table.", "a": "Stores key-value pairs for fast access."},
+      {"q": "What is recursion?", "a": "Function calling itself."},
+      {"q": "Explain graph traversal.", "a": "BFS and DFS."},
+      {"q": "Explain queue using stacks.", "a": "Implement queue behavior with stacks."},
+      {"q": "Explain stack using queues.", "a": "Implement stack behavior with queues."},
+      {"q": "Explain priority queue.", "a": "Queue where elements are served based on priority."}
+    ],
+    "Advanced": [
+      {"q": "Explain Dijkstra's algorithm.", "a": "Shortest path algorithm for weighted graphs."},
+      {"q": "Explain Bellman-Ford algorithm.", "a": "Shortest path algorithm handling negative weights."},
+      {"q": "Explain dynamic programming.", "a": "Solving problems using subproblem results."},
+      {"q": "Explain segment tree.", "a": "Tree data structure for range queries."},
+      {"q": "Explain trie.", "a": "Tree for storing strings efficiently."},
+      {"q": "Explain graph cycles.", "a": "Cycle detection in graphs."},
+      {"q": "Explain topological sorting.", "a": "Linear ordering of DAG nodes."},
+      {"q": "Explain Kruskal's algorithm.", "a": "Finds Minimum Spanning Tree using edges."},
+      {"q": "Explain Prim's algorithm.", "a": "Finds Minimum Spanning Tree using vertices."},
+      {"q": "Explain complexity analysis.", "a": "Time and space efficiency of algorithms."}
+    ]
+  },
+
+  "HTML/CSS": {
+    "Beginner": [
+      {"q": "What is HTML?", "a": "HyperText Markup Language for web pages."},
+      {"q": "What is CSS?", "a": "Cascading Style Sheets for styling web pages."},
+      {"q": "What is a tag?", "a": "Basic element in HTML."},
+      {"q": "What is an attribute?", "a": "Additional info inside HTML tag."},
+      {"q": "What is a div?", "a": "Block-level container element."},
+      {"q": "What is a span?", "a": "Inline container element."},
+      {"q": "Explain HTML headings.", "a": "h1 to h6 define headings."},
+      {"q": "What is a link?", "a": "Anchor tag <a> for navigation."},
+      {"q": "What is an image tag?", "a": "<img> displays images."},
+      {"q": "Explain paragraph tag.", "a": "<p> defines paragraph text."}
+    ],
+    "Intermediate": [
+      {"q": "What is class in CSS?", "a": "Selector for styling elements with same class."},
+      {"q": "What is id in CSS?", "a": "Selector for unique element."},
+      {"q": "Explain inline, internal, external CSS.", "a": "Different ways to apply styles."},
+      {"q": "What is box model?", "a": "Content, padding, border, margin."},
+      {"q": "Explain flexbox.", "a": "Flexible layout for arranging elements."},
+      {"q": "Explain grid layout.", "a": "Two-dimensional layout system."},
+      {"q": "What is pseudo-class?", "a": "Style element in special state, e.g., :hover."},
+      {"q": "What is pseudo-element?", "a": "Style part of element, e.g., ::before."},
+      {"q": "Explain z-index.", "a": "Stacking order of elements."},
+      {"q": "What is responsive design?", "a": "Adapt layout to different screen sizes."}
+    ],
+    "Advanced": [
+      {"q": "Explain CSS animations.", "a": "Animate elements using @keyframes."},
+      {"q": "Explain CSS transitions.", "a": "Smoothly change property values over time."},
+      {"q": "Explain media queries.", "a": "Apply styles based on device characteristics."},
+      {"q": "Explain CSS variables.", "a": "Reusable values with --varName."},
+      {"q": "Explain CSS specificity.", "a": "Rule priority to determine applied styles."},
+      {"q": "Explain position property.", "a": "static, relative, absolute, fixed, sticky."},
+      {"q": "What is float property?", "a": "Positions element left or right."},
+      {"q": "Explain pseudo-classes vs pseudo-elements.", "a": "State vs part of element."},
+      {"q": "Explain CSS calc().", "a": "Compute values dynamically."},
+      {"q": "Explain CSS grid template areas.", "a": "Define named areas for grid layout."}
+    ]
+  }
+}
